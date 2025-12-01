@@ -50,6 +50,9 @@ async function main() {
           },
           mdocContext
         ),
+        onCheck: (verification) => {
+          console.log(verification);
+        },
       },
       mdocContext
     );
